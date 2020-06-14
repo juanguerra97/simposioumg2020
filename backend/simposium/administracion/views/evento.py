@@ -8,7 +8,7 @@ from datetime import datetime, time
 
 guatemala_tz = timezone('America/Guatemala')
 
-fecha_evento = guatemala_tz.localize(datetime.strptime("10/05/2020 00:00:00","%d/%m/%Y %H:%M:%S"))
+fecha_evento = guatemala_tz.localize(datetime.strptime("17/04/2025 00:00:00","%d/%m/%Y %H:%M:%S"))
 lugar_evento = "Campus UMG"
 costo = 300
 
