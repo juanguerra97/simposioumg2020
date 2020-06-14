@@ -98,7 +98,7 @@ DATABASES = {
         'NAME': 'simposium',
         'USER': 'Solomeo',
         'PASSWORD': '4525MySql1225',
-        'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
+        'HOST': '192.168.10.10',  # Or an IP Address that your DB is hosted on
         #'PORT': '3306',
     }
 }
@@ -140,8 +140,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'deswebumg@gmail.com'
-EMAIL_HOST_PASSWORD = 'desarrollo2019'
+EMAIL_HOST_USER = 'tucorreo@gmail.com'
+EMAIL_HOST_PASSWORD = 'tucontraseña'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 
